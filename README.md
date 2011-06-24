@@ -62,7 +62,7 @@ Start TileMill:
 
     ./tilemill.js
 
-TileMill should now be accessible from a browser at `http://localhost:8889`.
+TileMill should now be accessible from a browser at [http://localhost:8889](http://localhost:8889).
 
 
 Installation: Ubuntu 10.10
@@ -103,16 +103,21 @@ Install `mapnik` from source:
     python scons/scons.py
     sudo python scons/scons.py install
 
-Download and unpack TileMill. Build & install:
+[Download TileMill](https://github.com/mapbox/tilemill/downloads) and unpack the archive.
 
-    cd TileMill
+Open Terminal and change to unpacked directory:
+
+    cd mapbox-tilemill
+
+Build & install:
+
     ./ndistro
 
 Start TileMill:
 
     ./tilemill.js
 
-TileMill should now be accessible from a browser at `http://localhost:8889`.
+TileMill should now be accessible from a browser at [http://localhost:8889](http://localhost:8889).
 
 
 Upgrading
